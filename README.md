@@ -1,11 +1,13 @@
 # netty-studying
 ### 学习使用netty
 
-> lesson01 使用传统io
+> lesson01 使用传统BIO
 >
-> lesson02 使用netty 
+> lesson02 使用NIO
+>
+> lesson03 使用netty 
 > 
-> lesson03 使用netty，方法简单封装，可以进行会话演示
+> lesson04 使用netty，方法简单封装，可以进行会话演示
 >
 > index.html 演示界面
 ```

@@ -1,1 +1,1 @@
-使用netty，支持websocket
+使用传统的socket NIO

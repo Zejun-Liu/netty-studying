@@ -15,10 +15,12 @@ import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 public class NettyInExceptionHandler extends ChannelInboundHandlerAdapter {
 
     @Override
-    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
 
         if (cause instanceof BaseException) {
             ctx.channel().writeAndFlush(getMessage((BaseException) cause));
+        } else {
+            super.exceptionCaught(ctx, cause);
         }
     }
 

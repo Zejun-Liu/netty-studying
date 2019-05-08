@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jiuxian</groupId>
-    <artifactId>lesson03</artifactId>
+    <artifactId>lesson04</artifactId>
 
     <dependencies>
         <dependency>
@@ -29,5 +29,4 @@
             <version>2.9.8</version>
         </dependency>
     </dependencies>
-
 </project>
